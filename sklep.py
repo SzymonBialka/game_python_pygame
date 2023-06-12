@@ -19,7 +19,6 @@ LIGHTBLUE = pygame.color.THECOLORS['lightblue']
 for file_name in file_names:
     image_name = file_name[:5].upper()
     IMages[image_name] = pygame.image.load(os.path.join(path, file_name)).convert_alpha(Backgroud)
-IMages_N=[IMages['ZEROO'],IMages['JEDEN'],IMages['DWAAA'],IMages['TRZYY'],IMages['CZTER'],IMages['PIECC'],IMages['SZESC'],IMages['SIEDE'],IMages['OSIEM'],IMages['DZIEW']]
 File_fire = []
 for i in file_names:
     if i[:4].upper() == "FIRE":
