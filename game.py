@@ -23,7 +23,6 @@ for file_name in file_names:
         IMages_F.append( pygame.image.load(os.path.join(path, file_name)).convert_alpha(Background))
 METEOR_EVENT = pygame.USEREVENT + 1
 pygame.time.set_timer(METEOR_EVENT, 500)
-IMages_N=[IMages['ZEROO'],IMages['JEDEN'],IMages['DWAAA'],IMages['TRZYY'],IMages['CZTER'],IMages['PIECC'],IMages['SZESC'],IMages['SIEDE'],IMages['OSIEM'],IMages['DZIEW']]
 start = Ikon(IMages['START'], 1366 // 2, 768 // 2)
 player = Player(IMages['PLAYE'], 1366 // 2, 768 // 2, IMages['FIRE1'])
 curret_lv = Level(player, IMages_F, LIGHTBLUE)
